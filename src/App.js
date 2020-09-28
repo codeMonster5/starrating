@@ -55,6 +55,7 @@ function App() {
       <div class="flex-container">
        { stars.map((star, i) => {
           const ratingValue = i+1;
+          return(
           <Star
             key={i}
             starId={i}
@@ -63,9 +64,9 @@ function App() {
             // onMouseEnter={() => onclicks(i+1)}
             // onMouseLeave={() => onclicks(-1)}
             onClick={() => onclicks(ratingValue)}
-          />
-        })
-      }
+          />);
+       })}
+      
       </div>
     </div>
   );
