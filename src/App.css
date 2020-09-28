@@ -24,6 +24,21 @@
   color: white;
 }
 
+.flex-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  
+}
+
+.star-rating-filled {
+  fill: gold;
+}
+
+.star-rating-blank {
+  fill: #d8d8d8;
+}
+
 .App-link {
   color: #61dafb;
 }
